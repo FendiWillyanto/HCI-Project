@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="./../CSS/StyleContacUs.css" />
+    <title>JCC.com</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="HomePage.html">Home</a></li>
+                <li><a href="EventPage.html">Event</a></li>
+                <li><a href="PriceListPage.html">Price</a></li>
+                <li><a href="AboutUsPage.html">About Us</a></li>
+                <li><a href="ContacUsPage.html">Contac Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<main>
+   <section class="Home" id="section_1">
+      <form id="Form">
+        <h5>Contact Us</h5>
+        <div>
+          <label for="Name">Name:</label>
+          <input type="text" id="Name" Name="Name" required />
+        </div>
+        <div>
+          <label for="Email">Email:</label>
+          <input type="Email" id="Email" Name="Email" required />
+        </div>
+        <div>
+          <label for="Telp">Telp:</label>
+          <input type="tel" id="Telp" Name="Telp" required />
+        </div>
+        <div>
+          <label for="Mess">Mess:</label>
+          <textarea id="Mess" Name="Mess" required></textarea>
+        </div>
+        <div>
+          <label>Preferred Contact Method:</label>
+          <input
+            type="checkbox"
+            id="contactTelp"
+            Name="contactMethod"
+            value="Telp"
+          />
+          <label for="contactTelp">Telp</label>
+          <input
+            type="checkbox"
+            id="contactEmail"
+            Name="contactMethod"
+            value="Email"
+          />
+          <label for="contactEmail">Email</label>
+        </div>
+        <div>
+          <input type="Submit" value="Submit" />
+        </div>
+      </form>
+   </section> 
+   <img src="./../pict/BuildingPict.jpg" alt="Line"/>
+
+   <footer>
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section1">
+          <h3>Contact</h3>
+          <p1>JockeysConferenceCenter@gmail.com</p1><br>
+          <p1>+62123445667</p1>
+          
+        </div>
+        <div class="footer-section">
+          <h3>FAQ</h3>
+          <p1>OverView</p1>
+        </div>
+        <div class="footer-section">
+          <h3>Find us in:</h3>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+</main>
+    <script src="./../Javascript/ContackUs.js"></script>
+</body>
+</html>
